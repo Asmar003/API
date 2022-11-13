@@ -20,7 +20,7 @@
 //        tdComNElement.textContent=data[i].companyName;
 //        tdConNElement.textContent=data[i].contactName;
 //        tdCTElement.textContent=data[i].contactTitle;
-//        tdAdress1Element.textContent=data[i].address.city;
+//        tdAdress1Element.textContent=data[i].address.street;
 //        tdAdress2Element.textContent=data[i].address.country;
 //        trElement.append(tdIDElement,tdComNElement,tdConNElement,tdCTElement,tdAdress1Element,tdAdress2Element);
 //        tBodyElement.appendChild(trElement);
