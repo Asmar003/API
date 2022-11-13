@@ -45,7 +45,7 @@ axios("https://northwind.vercel.app/api/customers/").then(function(response){
     tdComNElement.textContent=response.data[i].companyName;
     tdConNElement.textContent=response.data[i].contactName;
     tdCTElement.textContent=response.data[i].contactTitle;
-    tdAdress1Element.textContent=response.data[i].address.city;
+    tdAdress1Element.textContent=response.data[i].address.street;
     tdAdress2Element.textContent=response.data[i].address.country;
     trElement.append(tdIDElement,tdComNElement,tdConNElement,tdCTElement,tdAdress1Element,tdAdress2Element);
     tBodyElement.appendChild(trElement);
